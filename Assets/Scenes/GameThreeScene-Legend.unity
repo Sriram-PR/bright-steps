@@ -272,7 +272,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 70465438}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1890783096}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: HideLeaderboardPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &70465438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -399,10 +411,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aba5c30fe3910246a94f6052d729a04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 97804473}
-  parentAfterDrag: {fileID: 0}
-  startPosition: {x: 0, y: 0, z: 0}
   colorName: Green
+  image: {fileID: 97804473}
+  rectTransform: {fileID: 0}
+  startAnchoredPosition: {x: 0, y: 0}
+  startScale: {x: 0, y: 0, z: 0}
+  parentAfterDrag: {fileID: 0}
 --- !u!1 &115270020
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,7 +699,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   expectedColorName: Red
-  labelText: {fileID: 145660788}
 --- !u!1 &172325423
 GameObject:
   m_ObjectHideFlags: 0
@@ -941,13 +954,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1890783095}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1890783096}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: ShowLeaderboardPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1041,10 +1054,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aba5c30fe3910246a94f6052d729a04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 238472269}
-  parentAfterDrag: {fileID: 0}
-  startPosition: {x: 0, y: 0, z: 0}
   colorName: Blue
+  image: {fileID: 238472269}
+  rectTransform: {fileID: 0}
+  startAnchoredPosition: {x: 0, y: 0}
+  startScale: {x: 0, y: 0, z: 0}
+  parentAfterDrag: {fileID: 0}
 --- !u!1 &457036024
 GameObject:
   m_ObjectHideFlags: 0
@@ -1418,7 +1433,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   expectedColorName: Yellow
-  labelText: {fileID: 548228550}
 --- !u!1 &629529987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1567,7 +1581,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   expectedColorName: Blue
-  labelText: {fileID: 629529989}
 --- !u!1 &714314945
 GameObject:
   m_ObjectHideFlags: 0
@@ -2171,10 +2184,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aba5c30fe3910246a94f6052d729a04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 961542360}
-  parentAfterDrag: {fileID: 0}
-  startPosition: {x: 0, y: 0, z: 0}
   colorName: Red
+  image: {fileID: 961542360}
+  rectTransform: {fileID: 0}
+  startAnchoredPosition: {x: 0, y: 0}
+  startScale: {x: 0, y: 0, z: 0}
+  parentAfterDrag: {fileID: 0}
 --- !u!1 &1109861582
 GameObject:
   m_ObjectHideFlags: 0
@@ -2263,10 +2278,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aba5c30fe3910246a94f6052d729a04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 1109861584}
-  parentAfterDrag: {fileID: 0}
-  startPosition: {x: 0, y: 0, z: 0}
   colorName: Yellow
+  image: {fileID: 1109861584}
+  rectTransform: {fileID: 0}
+  startAnchoredPosition: {x: 0, y: 0}
+  startScale: {x: 0, y: 0, z: 0}
+  parentAfterDrag: {fileID: 0}
 --- !u!1 &1268910603
 GameObject:
   m_ObjectHideFlags: 0
@@ -2433,10 +2450,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1974102698}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -200, y: -165}
+  m_SizeDelta: {x: 800, y: -330}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1556034396
 MonoBehaviour:
@@ -2468,7 +2485,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2663,7 +2680,7 @@ MonoBehaviour:
   closeLeaderboardButton: {fileID: 70465437}
   correctSound: {fileID: 8300000, guid: 4d02cb61c7a7cdc49b3fd2bd81bd2137, type: 3}
   incorrectSound: {fileID: 8300000, guid: 59d46e79bebd89047b8e9001322cb09d, type: 3}
-  maxLeaderboardEntries: 5
+  maxLeaderboardEntries: 10
   totalPairsToMatch: 4
 --- !u!4 &1890783097
 Transform:
@@ -2924,7 +2941,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   expectedColorName: Green
-  labelText: {fileID: 1899413591}
 --- !u!1 &1974102697
 GameObject:
   m_ObjectHideFlags: 0
