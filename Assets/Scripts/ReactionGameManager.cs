@@ -252,7 +252,7 @@ public class ReactionGameManager : MonoBehaviour
 
             // Show result
             resultText.gameObject.SetActive(true);
-            resultText.text = $"Your reaction time: {reactionTime:F0} ms\n\nTap anywhere to try again";
+            resultText.text = $"Your reaction time: {reactionTime:F0} ms\nTap anywhere to try again";
 
             // Add score to leaderboard
             AddScore(reactionTime);
