@@ -11,6 +11,8 @@ public class MenuManager : MonoBehaviour
     public Button gameFourButton;
     public Button gameFiveButton;
     public Button gameSixButton;
+    public Button gameSevenButton;
+    public Button gameEightButton;
 
     void Start()
     {
@@ -43,6 +45,16 @@ public class MenuManager : MonoBehaviour
         if (gameSixButton != null)
         {
             gameSixButton.onClick.AddListener(() => OpenGameScene("GameSixScene-Osho"));
+        }
+
+        if (gameSevenButton != null)
+        {
+            gameSevenButton.onClick.AddListener(() => OpenGameScene("GameSevenScene"));
+        }
+
+        if (gameEightButton != null)
+        {
+            gameEightButton.onClick.AddListener(() => OpenGameScene("GameEightScene"));
         }
     }
 

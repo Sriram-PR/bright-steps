@@ -29,6 +29,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameSixScene-Osho.unity
     guid: 7121a31253042884cbacbc30e6782ad1
+  - enabled: 1
+    path: Assets/Scenes/GameSevenScene.unity
+    guid: 7f9569f6ffb5c6640997308cdffc352f
+  - enabled: 1
+    path: Assets/Scenes/GameEightScene.unity
+    guid: 5769f66911536dd448df6785a1bd5dd2
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
