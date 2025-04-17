@@ -410,9 +410,6 @@ MonoBehaviour:
   - sceneName: GameSevenScene
     destinationSceneName: MenuScene
     overrideBackNavigation: 0
-  - sceneName: GameEightScene
-    destinationSceneName: MenuScene
-    overrideBackNavigation: 0
 --- !u!4 &737615434
 Transform:
   m_ObjectHideFlags: 0
