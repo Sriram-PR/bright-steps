@@ -85,3 +85,87 @@ bright-steps/
 1. Clone the repository:
    ```bash
    git clone https://github.com/SaRaVaNaN0504/bright-steps.git
+
+2. Open the project in Unity Hub.
+
+3. Let Unity import assets and packages.
+
+4 .Press Play in the editor to run the game.
+
+### 🎤 Pronunciation Module Setup
+
+Ensure microphone permissions are granted on your device.
+
+Configure your API endpoint:
+
+Open PronunciationManager.cs
+
+Add your Speech API URL and API key.
+
+Build the project for Android/PC.
+
+Test by recording and comparing speech.
+
+⚠️ Note: API calls require internet connectivity. For offline usage, consider on-device speech recognition alternatives.
+
+### 📊 Evaluation Plan
+
+* Pilot testing with 5–10 children with ASD.
+
+* Metrics logged:
+
+     * Reaction times
+
+     * Accuracy scores
+
+     * Usage duration per module
+
+* Feedback sources:
+
+     * Parent/therapist questionnaires
+
+    * System Usability Scale (SUS)
+
+### 🔒 Privacy & Ethics
+
+* All recordings and data must be handled with parental consent.
+
+* No personally identifiable information (PII) should be stored unencrypted.
+
+* Recommended: anonymize user IDs, use secure storage, and comply with local data protection regulations.
+
+### 📌 Roadmap
+
+ * Add adaptive difficulty scaling
+
+ * Improve offline speech recognition (on-device fallback)
+
+ * Therapist/parent dashboard with progress reports
+
+ * More relaxation modules (guided meditation, calming visuals)
+
+ * Cloud-enabled secure leaderboard
+
+
+
+### 👨‍💻 Author
+
+#### Saravanan K 
+#### Sriram PR
+#### Aanand
+Project for supporting children with Autism Spectrum Disorder through interactive digital therapy.
+
+### 📜 License
+
+This project is licensed under the MIT License – feel free to use, modify, and distribute with proper attribution.
+
+### 🌟 Acknowledgments
+
+Inspired by therapeutic practices for children with ASD.
+
+Thanks to educators, therapists, and parents who provided feedback.
+
+Unity and open-source tools that made development possible.
+
+---
+MADE with LOVE :heart:
